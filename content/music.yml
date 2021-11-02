@@ -1,0 +1,5 @@
+title: Simplified Saaze Example Music Collection
+sort_field: date
+sort_direction: desc
+index_route: /music
+entry_route: /music/{slug}
