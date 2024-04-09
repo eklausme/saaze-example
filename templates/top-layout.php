@@ -11,7 +11,7 @@
 	<link href="https://unpkg.com/prismjs@v1.24.0/themes/prism.css" rel="stylesheet" />
 	<link href="https://unpkg.com/prismjs@v1.24.0/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet" />
 <?php } ?>
-	<link href=/blogklm.css rel=stylesheet>
+	<link href=<?= $rbase ?>/blogklm.css rel=stylesheet>
 
 </head>
 
