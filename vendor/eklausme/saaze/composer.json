@@ -1,0 +1,29 @@
+{
+	"name": "eklausme/saaze",
+	"description": "A fast, all-inclusive, flat-file CMS for simple websites and blogs",
+	"keywords": ["blog", "CMS", "static site generator"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Elmar Klausmeier",
+			"email": "Elmar.Klausmeier@gmail.com",
+			"homepage": "https://eklausmeier.goip.de"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Saaze\\": ""
+		}
+	},
+	"require": {
+		"php": ">=8.0",
+		"ext-yaml": ">=2.2.1"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true
+	},
+	"prefer-stable": true
+}
